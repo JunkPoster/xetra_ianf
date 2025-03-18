@@ -7,15 +7,6 @@
   Course: Udemy - "Writing Production-Ready ETL Pipelines in Python/Pandas" 
                 - by Jan Schwarzlose
                 - Section 5 & 6
-
-My Notes: If I were to refactor this code, I would consider parameterizing
-        the various status/error messages for more flexibility and easier
-        maintenance. I would also consider adding more error handling and
-        logging to the code, and likely a profiler to monitor performance.
-
-        I think there's a lot that could be modularized as well, such as the
-        S3BucketConnector class, which could be made more generic and used
-        for other projects. I would also add more unit tests.
 """
 import argparse         # For parsing command line arguments
 import logging
